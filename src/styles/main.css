@@ -19,7 +19,7 @@ body {
 #app {
   /* margin: auto; */
   padding: 0 1rem ;
-  border: solid;
+  /* border: solid; */
 }
 
 #app svg {
