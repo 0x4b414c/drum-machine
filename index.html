@@ -1,12 +1,19 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles/main.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css" />
     <title>Drum Machine</title>
   </head>
   <body>
+    <div id="overlay">
+      <div class="spiner"></div>
+      <p>Loading Samples...</p>
+    </div>
+    <dialog id="dialog"></dialog>
+
     <main id="app">
       <h1>Drum Machine</h1>
       <div id="container">
@@ -477,6 +484,6 @@
         </svg>
       </div>
     </main>
-    <script src="/src/main.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
